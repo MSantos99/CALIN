@@ -1,0 +1,471 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>Dashboard</title>
+
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700'
+			rel='stylesheet' type='text/css'>
+		<link href="css\bootstrap.min.css" rel="stylesheet">
+		<link href="css\nifty.min.css" rel="stylesheet">
+		<link href="css\demo\nifty-demo-icons.min.css" rel="stylesheet">
+		<link href="plugins\pace\pace.min.css" rel="stylesheet">
+		<script src="plugins\pace\pace.min.js"></script>
+		<link href="css\demo\nifty-demo.min.css" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<div id="container" class="effect aside-float aside-bright mainnav-lg">
+
+			<header id="navbar">
+				<div id="navbar-container" class="boxed">
+
+					<div class="navbar-header">
+						<a href="index-cli.html" class="navbar-brand">
+							<img src="img\logo.png" alt="Nifty Logo" class="brand-icon">
+							<div class="brand-title">
+								<span class="brand-text">CALIN</span>
+							</div>
+						</a>
+					</div>
+
+					<div class="navbar-content">
+						<ul class="nav navbar-top-links">
+
+							<li class="tgl-menu-btn">
+								<a class="mainnav-toggle" href="#">
+									<i class="demo-pli-list-view"></i>
+								</a>
+							</li>
+
+							<!--Buscador-->
+							<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+							<li>
+								<div class="custom-search-form">
+									<label class="btn btn-trans" for="search-input" data-toggle="collapse"
+										data-target="#nav-searchbox">
+										<i class="demo-pli-magnifi-glass"></i>
+									</label>
+									<form>
+										<div class="search-container collapse" id="nav-searchbox">
+											<input id="search-input" type="text" class="form-control"
+												placeholder="Buscador...">
+										</div>
+									</form>
+								</div>
+							</li>
+
+						</ul>
+						<ul class="nav navbar-top-links">
+
+							<li class="mega-dropdown">
+								<a href="#" class="mega-dropdown-toggle">
+									<i class="demo-pli-layout-grid"></i>
+								</a>
+								<div class="dropdown-menu mega-dropdown-menu">
+									<div class="row">
+										<div class="col-sm-4 col-md-3">
+
+											<!--Mega menu list-->
+											<ul class="list-unstyled">
+												<li class="dropdown-header"><i
+														class="demo-pli-file icon-lg icon-fw"></i> Atajos</li>
+												<li><a href="index-cli.html">Perfil</a></li>
+												<li><a href="productos-cli.html">Productos</a></li>
+												<li><a href="productos-cli.html">Servicios</a></li>
+											</ul>
+
+										</div>
+
+									</div>
+								</div>
+							</li>
+
+							<li class="dropdown">
+								<a href="#" data-toggle="dropdown" class="dropdown-toggle">
+									<i class="demo-pli-bell"></i>
+									<span class="badge badge-header badge-danger"></span>
+								</a>
+
+								<!--Notification dropdown menu-->
+								<div class="dropdown-menu dropdown-menu-md dropdown-menu-right">
+									<div class="nano scrollable">
+										<div class="nano-content">
+										
+
+											</div>
+										</li>
+										<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+										<!--End notifications dropdown-->
+
+										<li id="dropdown-user" class="dropdown">
+											<a href="#" data-toggle="dropdown"
+												class="dropdown-toggle text-right">
+												<span class="ic-user pull-right">
+
+													<i class="demo-pli-male"></i>
+												</span>
+											</a>
+
+											<div
+												class="dropdown-menu dropdown-menu-sm dropdown-menu-right panel-default">
+												<ul class="head-list">
+													<li>
+														<a href="#"><i class="demo-pli-male icon-lg icon-fw"></i>
+															Perfil</a>
+													</li>
+
+													<li>
+														<a href="#"><i class="demo-pli-gear icon-lg icon-fw"></i>
+															Configuración</a>
+													</li>
+
+													<li>
+														<a href="login.html"><i
+																class="demo-pli-unlock icon-lg icon-fw"></i> Cerrar Sesión</a>
+													</li>
+												</ul>
+											</div>
+										</li>
+
+										<li>
+											<a href="#" class="aside-toggle">
+												<i class="demo-pli-dot-vertical"></i>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</header>
+
+						<div class="boxed">
+
+							<!--CONTENT CONTAINER-->
+							<!--===================================================-->
+							<div id="content-container">
+								<div id="page-head">
+
+									<div class="pad-all text-center">
+										<h3>Bienvenido, Usuario</h3>
+
+									</p1></div>
+							</div>
+
+							<div id="page-content">
+
+						
+
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="panel">
+											
+
+											<div class="panel-body">
+												<div class="pad-btm form-inline">
+													<div class="row">
+														<div class="col-sm-6 table-toolbar-left">
+															<button class="btn btn-purple"><i
+																	class="demo-pli-add icon-fw"></i>Agregar</button>
+															<button class="btn btn-default"><i
+																	class="demo-pli-printer icon-lg"></i></button>
+															<div class="btn-group">
+																<button class="btn btn-default"><i
+																		class="demo-pli-information icon-lg"></i></button>
+																<button class="btn btn-default"><i
+																		class="demo-pli-trash icon-lg"></i></button>
+															</div>
+														</div>
+														<div class="col-sm-6 table-toolbar-right">
+															<div class="form-group">
+																<input type="text" autocomplete="off" class="form-control"
+																	placeholder="Search" id="demo-input-search2">
+															</div>
+															<div class="btn-group">
+																<button class="btn btn-default"><i
+																		class="demo-pli-download-from-cloud icon-lg"></i></button>
+
+															</div>
+														</div>
+													</div>
+													<div class="table-responsive">
+														<table class="table table-striped">
+															<thead>
+																
+															</thead>
+															<tbody>
+																<tr>
+																	<td><a href="#" class="btn-link"> 10 </a></td>
+																	<td>Pedro Santos</td>
+																	<td><span class="text-muted">Nov 22, 2024</span></td>
+																	<td>S/45.00</td>
+																	<td class="text-center">
+																		<div class="label label-table label-success">Pagado</div>
+																	</td>
+																	<td class="text-center">-</td>
+																</tr>
+
+																<tr>
+																	<td><a href="#" class="btn-link"> 11</a></td>
+																	<td>Lucia Flores</td>
+																	<td><span class="text-muted">Nov24, 2024</span></td>
+																	<td>S/38.00</td>
+																	<td class="text-center">
+																		<div class="label label-table label-danger">Cancelado</div>
+																	</td>
+																	<td class="text-center">CGX0089934571</td>
+																</tr>
+
+																<tr>
+																	<td><a href="#" class="btn-link"> 12</a></td>
+																	<td>Teresa Luas</td>
+																	<td><span class="text-muted">Nov12, 2024</span></td>
+																	<td>S/8.00</td>
+																	<td class="text-center">
+																		<div class="label label-table label-success">Pagado</div>
+																	</td>
+																	<td class="text-center">-</td>
+																</tr>
+
+																<tr>
+																	<td><a href="#" class="btn-link">13</a></td>
+																	<td>Sebastian Calabrese</td>
+																	<td><span class="text-muted">Nov19, 2024</span></td>
+																	<td>S/45.50</td>
+																	<td class="text-center">
+																		<div class="label label-table label-warning">Pendiente</div>
+																	</td>
+																	<td class="text-center">-</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<hr class="new-section-xs">
+													<div class="pull-right">
+														<ul class="pagination text-nowrap mar-no">
+															<li class="page-pre disabled">
+																<a href="#">&lt;</a>
+															</li>
+															<li class="page-number active">
+																<span>1</span>
+															</li>
+															<li class="page-number">
+																<a href="#">2</a>
+															</li>
+															<li class="page-number">
+																<a href="#">3</a>
+															</li>
+															<li>
+																<span>...</span>
+															</li>
+															<li class="page-number">
+																<a href="#">9</a>
+															</li>
+															<li class="page-next">
+																<a href="#">&gt;</a>
+															</li>
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--NAVEGADOR-->
+							<nav id="mainnav-container">
+								<div id="mainnav">
+									<div id="mainnav-menu-wrap">
+										<div class="nano">
+											<div class="nano-content">
+
+												<!--Profile Widget-->
+												<!--================================-->
+												<div id="mainnav-profile" class="mainnav-profile">
+													<div class="profile-wrap text-center">
+														<div class="pad-btm">
+															<img class="img-circle img-md" src="img\profile-photos\1.png"
+																alt="Profile Picture">
+														</div>
+														<a href="#profile-nav" class="box-block" data-toggle="collapse"
+															aria-expanded="false">
+															<span class="pull-right dropdown-toggle">
+																<i class="dropdown-caret"></i>
+															</span>
+															<p class="mnp-name">Usuario</p>
+
+														</a>
+													</div>
+													<div id="profile-nav" class="collapse list-group bg-trans">
+														<a href="#" class="list-group-item">
+															<i class="demo-pli-male icon-lg icon-fw"></i> Ver Perfil
+														</a>
+														<a href="#" class="list-group-item">
+															<i class="demo-pli-gear icon-lg icon-fw"></i> Settings
+														</a>
+														<a href="#" class="list-group-item">
+															<i class="demo-pli-information icon-lg icon-fw"></i> Ayuda
+														</a>
+														<a href="#" class="list-group-item">
+															<i class="demo-pli-unlock icon-lg icon-fw"></i> Logout
+														</a>
+													</div>
+												</div>
+
+												<div id="mainnav-shortcut" class="hidden">
+													<ul class="list-unstyled shortcut-wrap">
+														<li class="col-xs-3" data-content="My Profile">
+															<a class="shortcut-grid" href="#">
+																<div class="icon-wrap icon-wrap-sm icon-circle bg-mint">
+																	<i class="demo-pli-male"></i>
+																</div>
+															</a>
+														</li>
+														<li class="col-xs-3" data-content="Messages">
+															<a class="shortcut-grid" href="#">
+																<div class="icon-wrap icon-wrap-sm icon-circle bg-warning">
+																	<i class="demo-pli-speech-bubble-3"></i>
+																</div>
+															</a>
+														</li>
+														<li class="col-xs-3" data-content="Activity">
+															<a class="shortcut-grid" href="#">
+																<div class="icon-wrap icon-wrap-sm icon-circle bg-success">
+																	<i class="demo-pli-thunder"></i>
+																</div>
+															</a>
+														</li>
+														<li class="col-xs-3" data-content="Lock Screen">
+															<a class="shortcut-grid" href="#">
+																<div class="icon-wrap icon-wrap-sm icon-circle bg-purple">
+																	<i class="demo-pli-lock-2"></i>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+												<!--================================-->
+												<!--End shortcut buttons-->
+
+												<ul id="mainnav-menu" class="list-group">
+
+													<!--Category name-->
+													<li class="list-header">Secciones</li>
+
+													<!--Menu list item-->
+													<li class="active-sub">
+														<a href="#">
+															<i class="demo-pli-home"></i>
+															<span class="menu-title">Dashboard</span>
+															<i class="arrow"></i>
+														</a>
+
+														<!--Submenu-->
+														<ul class="collapse in">
+															<li class="active-link"><a href="index-cli.html">Main</a></li>
+
+														</ul>
+													</li>
+
+													<li class="list-divider"></li>
+
+													<!--Category name-->
+													<li class="list-header">Componentes</li>
+
+													<li>
+														<a href="#">
+															<i class="demo-pli-warning-window"></i>
+															<span class="menu-title">Catálogo productos</span>
+															<i class="arrow"></i>
+														</a>
+
+														<!--Submenu-->
+														<ul class="collapse">
+
+															<li><a href="productos-cli.html">Vista Productos</a></li>
+															<li><a href="productos-cli.html">Vista Servicios</a></li>
+													
+														</ul>
+													</li>
+													<li>
+														<a href="#">
+															<i class="demo-pli-warning-window"></i>
+															<span class="menu-title">Ventas</span>
+															<i class="arrow"></i>
+														</a>
+														<ul class="collapse">
+
+															<li><a href="recibos.html">Órdenes</a></li>
+														</ul>
+
+													</li>
+													
+													<li>
+														<a href="#">
+															<i class="demo-pli-warning-window"></i>
+															<span class="menu-title">Carrito</span>
+															<i class="arrow"></i>
+														</a>
+														<ul class="collapse">
+
+															<li><a href="productos-cli.html">Carrito</a></li>
+														</ul>
+													</li>
+
+													<li class="list-divider"></li>
+
+												
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</nav>
+								</div>
+
+								<footer id="footer">
+
+									<div class="hide-fixed pull-right pad-rgt">
+										<p class="pad-lft">&#0169; 2024 CALIN</p>
+									</div>
+									<p id="currentDate">Cargando fecha...</p>
+
+									<script>
+        // Obtener la fecha actual
+        const currentDate = new Date();
+
+        // Formatear la fecha
+        const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = currentDate.toLocaleDateString('es-ES', options);
+
+        // Mostrar la fecha en el elemento HTML
+        document.getElementById('currentDate').textContent = formattedDate;
+    </script>
+
+								</footer>
+
+								<button class="scroll-top btn">
+									<i class="pci-chevron chevron-up"></i>
+								</button>
+							</div>
+
+							<script src="js\jquery.min.js"></script>
+
+							<script src="js\bootstrap.min.js"></script>
+
+							<script src="js\nifty.min.js"></script>
+
+							<script src="js\demo\nifty-demo.min.js"></script>
+
+							<script src="plugins\flot-charts\jquery.flot.min.js"></script>
+							<script src="plugins\flot-charts\jquery.flot.resize.min.js"></script>
+							<script src="plugins\flot-charts\jquery.flot.tooltip.min.js"></script>
+							<script src="plugins\sparkline\jquery.sparkline.min.js"></script>
+							<script src="js\demo\dashboard.js"></script>
+
+						</body>
+					</html>
